@@ -98,8 +98,8 @@ header ul {
     position: absolute;
     margin: 70px 0 0 0;
     padding: 0;
-    width: 40%;
-    left: -40%;
+    width: 30%;
+    left: -30%;
 }
 
 header ul li {
@@ -113,8 +113,14 @@ header ul li {
     color: #ffffff;
 }
 
+li.media {
+    padding: 0;
+    height: auto;
+}
+
 header ul li img {
     width: 33.3333%;
+    height: auto;
     float: left;
 }
 
@@ -215,4 +221,8 @@ body section + img {
 
 .hide {
     display: none;
+}
+
+a {
+    text-decoration: none;
 }

@@ -11,11 +11,18 @@ $(document).ready(function(){
 
     $("#close").click(function() {
         $("ul").animate({
-          left: "-40%"
+          left: "-30%"
         }, 300, function() {
           // Animation complete.
         });
         $("#open").toggleClass("hide");
         $("#close").toggleClass("hide");
+    });
+
+    $('li').hover(function(){
+        $(this).css("background-color", "rgba(255, 52, 51, .9)")
+
+    }, function(){
+        $(this).css("background-color", "rgba(28, 22, 22, .9)")
     });
 });
