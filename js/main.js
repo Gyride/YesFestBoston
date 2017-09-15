@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     $("#close").click(function() {
         $("ul").animate({
-          left: "-30%"
+          left: "-60%"
         }, 300, function() {
           // Animation complete.
         });
