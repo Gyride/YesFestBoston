@@ -37,15 +37,20 @@
 /* BASE STYLES
 /*******************************************/
 
+@font-face {
+    font-family: "HelveticaCompressed";
+    src: url(../fonts/HelveticaCompressed.ttf)
+}
+
 body {
     background: #ff3433;
     background-image: url(../img/mobileBackground.png);
     background-image: url(../img/mobileBackground.png), radial-gradient(#f17c6d,#ff3433);
     background-size: cover;
-    color: #ffffff;
+    color: #D0EAFE;
     font-size: 24px;
     line-height: 1.4;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: HelveticaCompressed, Arial, sans-serif;
 }
 
 
@@ -110,7 +115,6 @@ header ul li {
     text-align: center;
     font-size: 36px;
     background-color: rgba(28, 22, 22, .9);
-    color: #ffffff;
 }
 
 li.media {
@@ -178,36 +182,36 @@ body section + img {
 
 #featuring span + h4 {
     top: 900px;
-    left: 35%;
+    left: 40%;
 }
 
 #featuring span + h4 + h4 {
-    top: 970px;
-    left: 15%;
+    top: 1000px;
+    left: 10%;
 }
 
 #featuring span + h4 + h4 + h4 {
-    top: 1040px;
-    left: 45%;
+    top: 1100px;
+    left: 40%;
 }
 
 #featuring span + h4 + h4 + h4 + h4 {
-    top: 1130px;
-    left: 15%;
+    top: 1200px;
+    left: 10%;
 }
 
 #featuring span + h4 + h4 + h4 + h4 + h4{
-    top: 1200px;
-    left: 45%;
+    top: 1300px;
+    left: 40%;
 }
 
 #featuring span + h4 + h4 + h4 + h4 + h4 + h4 {
-    top: 1270px;
+    top: 1400px;
     left: 10%;
 }
 
 #featuring h4 + span {
-    top: 1270px;
+    top: 1400px;
     left: 55%;
 }
 
@@ -225,4 +229,9 @@ body section + img {
 
 a {
     text-decoration: none;
+    color: #D0EAFE;
+}
+
+@media screen and (min-width: 770px) {
+    
 }
